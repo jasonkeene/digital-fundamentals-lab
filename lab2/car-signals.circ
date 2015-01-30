@@ -59,67 +59,74 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(210,380)" to="(250,380)"/>
-    <wire from="(310,480)" to="(540,480)"/>
-    <wire from="(210,470)" to="(260,470)"/>
-    <wire from="(100,490)" to="(260,490)"/>
-    <wire from="(100,480)" to="(100,490)"/>
-    <wire from="(100,360)" to="(250,360)"/>
-    <wire from="(210,430)" to="(210,470)"/>
-    <wire from="(100,360)" to="(100,380)"/>
-    <wire from="(210,380)" to="(210,430)"/>
-    <wire from="(100,430)" to="(210,430)"/>
-    <wire from="(300,370)" to="(540,370)"/>
-    <wire from="(110,600)" to="(280,600)"/>
-    <comp lib="6" loc="(598,486)" name="Text">
-      <a name="text" val="right"/>
+    <wire from="(280,340)" to="(280,360)"/>
+    <wire from="(280,360)" to="(310,360)"/>
+    <wire from="(160,180)" to="(350,180)"/>
+    <wire from="(160,240)" to="(390,240)"/>
+    <wire from="(350,140)" to="(390,140)"/>
+    <wire from="(440,130)" to="(480,130)"/>
+    <wire from="(280,320)" to="(280,340)"/>
+    <wire from="(440,230)" to="(480,230)"/>
+    <wire from="(350,180)" to="(350,220)"/>
+    <wire from="(160,120)" to="(390,120)"/>
+    <wire from="(160,340)" to="(280,340)"/>
+    <wire from="(280,320)" to="(310,320)"/>
+    <wire from="(350,220)" to="(390,220)"/>
+    <wire from="(350,140)" to="(350,180)"/>
+    <comp lib="0" loc="(160,180)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(43,431)" name="Text">
-      <a name="text" val="emergency"/>
+    <comp lib="0" loc="(160,240)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(310,480)" name="OR Gate"/>
-    <comp lib="6" loc="(51,602)" name="Text">
-      <a name="text" val="brake"/>
-    </comp>
-    <comp lib="0" loc="(540,370)" name="Pin">
+    <comp lib="0" loc="(480,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(39,384)" name="Text">
-      <a name="text" val="left"/>
+    <comp lib="6" loc="(70,344)" name="Text">
+      <a name="text" val="Brake"/>
     </comp>
-    <comp lib="0" loc="(100,480)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="6" loc="(80,185)" name="Text">
+      <a name="text" val="Emergency Switch"/>
     </comp>
-    <comp lib="0" loc="(100,430)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(599,371)" name="Text">
-      <a name="text" val="left"/>
-    </comp>
-    <comp lib="6" loc="(339,605)" name="Text">
-      <a name="text" val="tail"/>
-    </comp>
-    <comp lib="0" loc="(280,600)" name="Pin">
+    <comp lib="0" loc="(480,130)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(540,480)" name="Pin">
+    <comp lib="0" loc="(310,320)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(300,370)" name="OR Gate"/>
-    <comp lib="0" loc="(110,600)" name="Pin">
+    <comp lib="6" loc="(371,342)" name="Text">
+      <a name="text" val="Tail Lights"/>
+    </comp>
+    <comp lib="0" loc="(310,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(160,340)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(45,488)" name="Text">
-      <a name="text" val="right"/>
+    <comp lib="6" loc="(562,235)" name="Text">
+      <a name="text" val="Right Turn Signal"/>
     </comp>
-    <comp lib="0" loc="(100,380)" name="Pin">
+    <comp lib="6" loc="(87,124)" name="Text">
+      <a name="text" val="Left Turn Switch"/>
+    </comp>
+    <comp lib="6" loc="(83,246)" name="Text">
+      <a name="text" val="Right Turn Switch"/>
+    </comp>
+    <comp lib="6" loc="(557,135)" name="Text">
+      <a name="text" val="Left Turn Signal"/>
+    </comp>
+    <comp lib="1" loc="(440,130)" name="OR Gate"/>
+    <comp lib="0" loc="(160,120)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="1" loc="(440,230)" name="OR Gate"/>
   </circuit>
 </project>
