@@ -19,8 +19,16 @@ F(x, y, z) = sum(1, 2, 4, 6, 7)
 
 
 
+def sum_of_products(a2, a1, a0, b2, b1, b0):
+    return (
+        not a2 and not a1 and a0 and not b2 and not b1 and not b0 or
+        not a2 and a1 and not b2 and not b1 or
+        not a2 and a1 and a0 and not b2 and b1 and not b0 or
+        a2 and not b2 or
+        a2 and a1 and a0 and b2 and b1 and not b0 or
+        a2 and a1 and b2 and not b1 or
+        a2 and not a1 and a0 and b2 and not b1 and not b0
+    )
 
-0 0 0
-0 1 1
-1 0 1
-1 1 0
+
+F(a2, a1, a0, b2, b1, b0) = a2'a1'a0    b2'
