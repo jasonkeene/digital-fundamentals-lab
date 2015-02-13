@@ -33,18 +33,40 @@ four different inputs. For addition with bla bla bla.. this was the design:
 
 ## Test Vectors and Verification
 
-
+ s0 | s1 | A  | B  | F
+:--:|:--:|:--:|:--:|:--:
+ 0  | 0  | -8 |  X | -7
+ 0  | 0  |  0 |  X |  1
+ 0  | 0  |  6 |  X |  7
+ 0  | 1  |  0 | -8 | -8
+ 0  | 1  |  7 | -8 | -1
+ 0  | 1  | -8 |  0 | -8
+ 0  | 1  |  0 |  0 |  0
+ 0  | 1  |  7 |  0 |  7
+ 0  | 1  | -8 |  7 | -1
+ 0  | 1  |  0 |  7 |  7
+ 1  | 0  | -8 | -8 |  0
+ 1  | 0  | -8 |  0 | -8
+ 1  | 0  |  0 |  0 |  0
+ 1  | 0  |  7 |  0 |  7
+ 1  | 0  |  0 |  7 | -7
+ 1  | 1  | -7 |  X | -8
+ 1  | 1  |  0 |  X | -1
+ 1  | 1  |  7 |  X |  6
 
 
 ## Discussion and Conclusion
 
 In this lab we demonstrated the limits of 4 bit signed integers though the implementation of a 4 bit adder. Because the left most bit is the sign bit, this means the max value that can be represented is 7 while the minimum value that can be represented is -8 because of two's compliment. This helped us exercise and understand the fundamentals of adding and subtracting in circuits and how overflow creates mathematical errors in computing and when to look out for them.
 
+
+## Questions and Answers
+
 Is the output valid for the following input combinations:
 
- - S0 = 0, S1 = 0, A = 7, B = 3? **_Invalid_**
- - S0 = 0, S1 = 1, A = 7, B =- 3? **_Valid_**
- - S0 = 1, S1 = 0, A = -4, B = -5? **_Valid_**
+ - S0 = 0, S1 = 0, A = 7, B = 3? <span style="color:red;">**_Invalid_**</span>
+ - S0 = 0, S1 = 1, A = 7, B =- 3? <span style="color:green;">**_Valid_**</span>
+ - S0 = 1, S1 = 0, A = -4, B = -5? <span style="color:green;">**_Valid_**</span>
 
 What is the range of inputs (for both A and B) that will produce the valid
 output for each of the functions?
