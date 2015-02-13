@@ -38,10 +38,7 @@ four different inputs. For addition with bla bla bla.. this was the design:
 
 ## Discussion and Conclusion
 
-We concluded that you can add things with an adder.
-
-
-## Questions and Answers
+In this lab we demonstrated the limits of 4 bit signed integers though the implementation of a 4 bit adder. Because the left most bit is the sign bit, this means the max value that can be represented is 7 while the minimum value that can be represented is -8 because of two's compliment. This helped us exercise and understand the fundamentals of adding and subtracting in circuits and how overflow creates mathematical errors in computing and when to look out for them.
 
 Is the output valid for the following input combinations:
 
