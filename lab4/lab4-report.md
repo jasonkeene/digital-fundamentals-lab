@@ -6,7 +6,7 @@ Submitted Feb 15th, 2015
 
 ## Purpose and Objectives
 
-This lab we set out to implement four functions that work with 4-bit two's
+This lab we set out to implement four functions that work with 4-bit, two's
 complement inputs (A+1, A+B, A-B, and A-1). Since subtraction can be
 accomplished by negating one of the inputs we will only need a single 4-bit
 adder.
@@ -41,7 +41,7 @@ We implemented this in hardware.
 ## Test Vectors and Verification
 
 We decided to test our design against various inputs that we thought would
-cover a majority of the circuit. This is the truth table we tested off of:
+cover a majority of the circuit. This is the truth table we tested from:
 
  s0 | s1 | A  | B  | F
 :--:|:--:|:--:|:--:|:--:
@@ -67,7 +67,7 @@ cover a majority of the circuit. This is the truth table we tested off of:
 
 ## Discussion and Conclusion
 
-In this lab we demonstrated the limits of 4 bit signed integers though the
+In this lab we demonstrated the limits of 4-bit, signed integers through the
 implementation of a 4 bit adder. Because the left most bit is the sign bit,
 this means the max value that can be represented is 7 while the minimum value
 that can be represented is -8 because of two's compliment. This helped us
