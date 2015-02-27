@@ -716,7 +716,7 @@ Submitted Feb XXXXX, 2015
           rEAAAAAElFTkSuQmCC" alt="" />
 
 
-####Flip Flop
+####Flip Flops
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABxoAAAYECAIAAABVH5jL
           AACAAElEQVR42uzdCZgU5YE//gFBThVRCRpF3V1jNDFiJBoTj2h0RUnUhKhJvMUj6q
           qLB2oi0ahojNl4o7irknii4k2uJbjmJ0RFkQUVERBRJOCBYjiG4fq/ayX1b6d7eqpn
@@ -2108,3 +2108,4 @@ Submitted Feb XXXXX, 2015
 ## Test Vectors and Verification
 
 ## Discussion and Conclusion
+In this lab we demonstrated how flip flops are created using AND, NOT, and NOR gates and latches using OR, NOT, and NAND gates. We also disovered that by adding inverters between the clock pulse and the gate for the flip flop, the duty cycle increases. JK flips can easily be converted to Data flip flops by removing one input and splitting the other input into two, inverting one of the branches. This insures that both inputs into the flip flop can not match logical values. Building these helped visualize in a tangable way how latches and flip flops can be used as data storage elements in computers.
