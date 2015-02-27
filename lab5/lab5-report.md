@@ -5,7 +5,7 @@ Submitted Feb XXXXX, 2015
 
 
 ## Purpose and Objectives
-
+In this lab we set out to understand the connections between latches, SR, JK, and Data flip flops and how the clock cycle is apart of their design. We will convert between the different flip flops and latches to demonstrate an understanding in how they differ and the outputs that are carried out by them and potentially what these are used for in a computer system.
 ## Component List
 
  - Breadboard
