@@ -24,7 +24,7 @@ Submitted Feb XXXXX, 2015
 
 
 
-###Latches
+####Latches
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABCAAAANgCAIAAABycY7Q
           AACAAElEQVR42uzdCZRU5YEvcBZFEKSFEEISXHANKM8lohF5Ojo6JE8RjDoacUKMRC
           W4YRRxIUaPiY5OohKDkpkkaFBDEBSXiBPGl2cUHUFM2BTcDiIIKsjStnSzvS+p5E7Z
@@ -716,7 +716,7 @@ Submitted Feb XXXXX, 2015
           rEAAAAAElFTkSuQmCC" alt="" />
 
 
-###Flip Flop
+####Flip Flop
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABxoAAAYECAIAAABVH5jL
           AACAAElEQVR42uzdCZgU5YE//gFBThVRCRpF3V1jNDFiJBoTj2h0RUnUhKhJvMUj6q
           qLB2oi0ahojNl4o7irknii4k2uJbjmJ0RFkQUVERBRJOCBYjiG4fq/ayX1b6d7eqpn
