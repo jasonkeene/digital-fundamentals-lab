@@ -1,0 +1,31 @@
+
+
+Truth Table for JK Flip Flop
+
+ preset | clear | clock | j | k | q | q'
+:------:|:-----:|:-----:|:-:|:-:|:-:|:--:
+   0    |   0   |   x   | x | x | 1 |  1 
+   0    |   1   |   x   | x | x | 1 |  0
+   1    |   0   |   x   | x | x | 0 |  1
+   1    |   1   |   ⎍   | 0 | 0 | q<sub>0</sub> | q'<sub>0</sub>
+   1    |   1   |   ⎍   | 0 | 1 | 0 |  1
+   1    |   1   |   ⎍   | 1 | 0 | 1 |  0
+   1    |   1   |   ⎍   | 1 | 1 | (q<sub>0</sub>)' | (q'<sub>0</sub>)'
+
+
+Truth Table for Guarded SR Flip Flop
+
+ gate | s | r |       q       |       q'
+:----:|:-:|:-:|:-------------:|:--------------:
+   0  | x | x | q<sub>0</sub> | q'<sub>0</sub>
+   1  | 0 | 0 | q<sub>0</sub> | q'<sub>0</sub>
+   1  | 0 | 1 |       0       |        1
+   1  | 1 | 0 |       1       |        0
+   1  | 1 | 1 |    invalid    |     invalid
+
+
+built a guarded SR latch
+introduced the clock
+not introduced a leading edge detector
+introduced additional logic
+

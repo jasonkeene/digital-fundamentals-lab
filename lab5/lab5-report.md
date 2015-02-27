@@ -8,15 +8,17 @@ Submitted Feb XXXXX, 2015
 
 ## Component List
 
-Part A:
-
  - Breadboard
  - Wiring
  - 5v power supply
  - TTL 0.5 Htz Function Generator
- - Dual J-K Flip-Flops With Preset And Clear (74LS76)
- - 2 x LED
- - 2 x Resistor (470 Ohms 5%)
+ - 2 x Dual J-K Flip-Flops With Preset And Clear (74LS76)
+ - 1 x Dual Positive Edge Triggerd D Flip-Flops (74LS74)
+ - 1 x Quad 2 input NOR Gate (74LS02)
+ - 2 x Hex Inverter (74LS04)
+ - 1 x Quad 2 input AND Gate (74LS08)
+ - 12 x LED
+ - 12 x Resistor (470 Ohms 5%)
 
 ## Design
 
