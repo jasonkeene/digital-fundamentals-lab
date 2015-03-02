@@ -1,7 +1,7 @@
 # Lab 5 - Sequential Logic Circuits (I)
 CDA 3201L-003   
 Jason Keene and Jacob Manfre   
-Submitted Feb XXXXX, 2015
+Submitted Mar 1, 2015
 
 
 ## Purpose and Objectives
