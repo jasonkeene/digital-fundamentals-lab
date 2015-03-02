@@ -2114,6 +2114,7 @@ We tested every possible combination of inputs and compared with the truth table
 | 0 | 1 |  0    | 0    | 0    | 0    | 1    |
 | 1 | 0 |  1    | 1    | 1    | 1    | 0    |
 | 1 | 1 | Q'(t) | -    | -    | Q'   | 1    |
+
 Q represents output to the corresponding letter part. Because each flip flop provides the same function as the other parts, each output is the same. The difference lies in the circuit design, however part E required a different output and consequently has different truth values for its output. 
 ## Discussion and Conclusion
 In this lab we demonstrated how flip flops are created using AND, NOT, and NOR gates and latches using OR, NOT, and NAND gates. We also disovered that by adding inverters between the clock pulse and the gate for the flip flop, the duty cycle increases. JK flips can easily be converted to Data flip flops by removing one input and splitting the other input into two, inverting one of the branches. This insures that both inputs into the flip flop can not match logical values. Building these helped visualize in a tangable way how latches and flip flops can be used as data storage elements in computers.
