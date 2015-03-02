@@ -2107,6 +2107,7 @@ In this lab we set out to understand the connections between latches, SR, JK, an
 
 ## Test Vectors and Verification
 We tested every possible combination of inputs and compared with the truth table.
+
 | x | y | Q(A)  | Q(B) | Q(C) | Q(D) | Q(E) |
 |:-:|---|-------|------|------|------|------|
 | 0 | 0 | Q(t)  | -    |   -  | Q    | Q    |
