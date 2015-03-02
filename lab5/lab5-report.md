@@ -2107,7 +2107,7 @@ In this lab we set out to understand the connections between latches, SR, JK, an
 
 ## Test Vectors and Verification
 | x | y | A     | B | C | D  | E |
-|:-:|---|-------|---|---|----|---|
+|:-:|:-:|:-----:|:-:|:-:|:--:|:-:|
 | 0 | 0 | Q(t)  | - | - | Q  | Q |
 | 0 | 1 |  0    | 0 | 0 | 0  | 1 |
 | 1 | 0 |  1    | 1 | 1 | 1  | 0 |
