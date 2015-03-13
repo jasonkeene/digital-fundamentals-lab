@@ -1,3 +1,3 @@
-# digital-fundamentals-lab
+# Digital Fundamentals Lab
 
-this is a change!
+Lab work for Spring 2015 CDA_3201L
