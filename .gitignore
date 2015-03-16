@@ -13,3 +13,6 @@ __MACOSX
 *~
 Thumbs.db
 desktop.ini
+
+# vagrant
+.vagrant/
