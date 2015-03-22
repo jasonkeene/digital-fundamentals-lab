@@ -48,7 +48,7 @@ In our design we ANDed the asynchronous imput with each of the 4 bit inputs and 
 | 1 | 1 | 0 | 0 | 1    | 0    | 0    | 1    |
 | 1 | 1 | 0 | 1 | 1    | 0    | 1    | 1    |
 | 1 | 1 | 1 | 0 | 1    | 1    | 0    | 1    |
-| 1 | 1 | 1 | 1 || 1    | 1    | 1    |      |
+| 1 | 1 | 1 | 1 | 1    | 1    | 1    | 1    |
 
 ## Discussion and Conclusion
 
