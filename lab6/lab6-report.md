@@ -29,7 +29,7 @@ In our design we ANDed the asynchronous imput with each of the 4 bit inputs and 
 
 ## Test Vectors and Verification
 
-[write stuff here]
+We made a truth table for all possible inputs for our left shift register and matched the outputs with what was demonstrated on the breadboard.
 
 | W | X | Y | Z | Q(1) | Q(2) | Q(3) | Q(4) |
 |:-:|:-:|:-:|:-:|:----:|:----:|:----:|:----:|
