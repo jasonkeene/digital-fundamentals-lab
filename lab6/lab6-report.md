@@ -31,7 +31,7 @@ In our design we ANDed the asynchronous imput with each of the 4 bit inputs and 
 
 [write stuff here]
 
-| W | X | Y | Z | Q(1) | Q(2) | Q(3) | Q(4) |
+| W | X | Y | Z **|** Q(1) | Q(2) | Q(3) | Q(4) |
 |:-:|:-:|:-:|:-:|:----:|:----:|:----:|:----:|
 | 0 | 0 | 0 | 0 | 0    | 0    | 0    | 0    |
 | 0 | 0 | 0 | 1 | 0    | 0    | 1    | 0    |
