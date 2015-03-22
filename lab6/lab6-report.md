@@ -14,11 +14,12 @@ Submitted Mar 22, 2015
  - Wiring
  - 5v power supply
  - TTL 0.5 Htz Function Generator
- - _ x Dual Positive Edge Triggerd D Flip-Flops (74LS74)
- - _ x Hex Inverter (74LS04)
- - _ x Quad 2 input NAND Gate (74LS__)
- - _ x LED
- - _ x Resistor (470 Ohms 5%)
+ - 2 x Dual Positive Edge Triggerd D Flip-Flops (74LS74)
+ - 1 x Shift Register (74LS194)
+ - 1 x Hex Inverter (74LS04)
+ - 2 x Quad 2 input NAND Gate (74LS__)
+ - 9 x LED
+ - 8 x Resistor (470 Ohms 5%)
 
 ## Design
 
