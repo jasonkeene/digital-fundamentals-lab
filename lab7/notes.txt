@@ -11,32 +11,32 @@ z0 = (ps1' ps2') + (ps1' ps0' x') + (ps0' ps2' x') + (ps1 ps0 x)
 x
 
 #   (x ps0) ps1
-   [x ps0]       ps2
-   [x ps0]       ps2'
+#   [x ps0]       ps2
+#   [x ps0]       ps2'
 
-    x  ps0' (ps1' ps2') ps3'
+#    x)  ps0' (ps1' ps2') (ps3'
 
 x'
 
-    x' ps0  [ps1' ps2']
+#    x' ps0  [ps1' ps2']
 
-   (x' ps0') ps1'
-   [x' ps0']      ps2 
-   [x' ps0']      ps2'
+#   (x' ps0') ps1'
+#   [x' ps0']      ps2 
+#   [x' ps0']      ps2'
 
-    x'      (ps1' ps2)
-    x'                 ps3
+#    x'      (ps1' ps2)
+#    x'                 ps3
 
 ps0'
 
-        ps0' [ps1' ps2]
+#        ps0' [ps1' ps2]
 
 ps1
 
-             ps1 ps2
-             ps1 ps2'
+#             ps1 ps2
+#             ps1 ps2'
 
 ps1'
 
-            [ps1' ps2]
-            [ps1' ps2']
+#            [ps1' ps2]
+#            [ps1' ps2']
